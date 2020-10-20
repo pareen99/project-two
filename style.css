@@ -1,6 +1,29 @@
 /*global styles*/
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /*navbar styles*/
+nav {
+    height: 80px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+nav > a > img {
+    height: 30px;
+    width: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 
 /*header styles*/
 
