@@ -1,0 +1,109 @@
+/*global styles*/
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*navbar styles*/
+nav {
+    height: 80px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+nav > a > img {
+    height: 70px;
+    width: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+     z-index: 2;
+
+}
+nav ul.active {
+    display: block;
+}
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li {
+    padding: 20px;
+}
+#hamburger {
+    display: block;
+    height: 30px;
+    float: right;
+}
+
+#homepage {
+    
+}
+
+
+/* Navbar Desktop Styles */
+
+@media (min-width:768px) {
+    nav {
+        padding: 0px 40px;
+    }
+    nav ul {
+        display: flex;
+        max-width: 500px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+
+/*Navbar Mobile Styles*/
+@media (max-width: 767px){
+nav {
+    padding: 0px 20px;
+}
+
+}
+
+/*header styles*/
+h1 {
+    font-size: 30px;
+    padding: 50px;
+    
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+/*article styles*/
+article {
+    max-width: 900px;
+}
+/*image styles*/
+
+/*video styles*/
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
