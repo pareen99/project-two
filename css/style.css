@@ -48,15 +48,11 @@ nav ul li {
     float: right;
 }
 
-#homepage {
-    
-}
+
 
 
 /* Navbar Desktop Styles */
-nav {
 
-}
 @media (min-width:768px) {
     nav {
         padding: 0px 40px;
