@@ -82,16 +82,12 @@ h1 {
 }
 
 .center {
-    position: relative;
-    display: flex;
-    text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
-.centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 /*article styles*/
 article {
     max-width: 900px;
