@@ -99,13 +99,15 @@ article {
 
 /*video styles*/
 .video-bg {
- width: 100%;
+ width: 100vh;
  height: 100vh;
  overflow: hidden;
  display: flex;
  justify-content: center;
  align-items: center;
 }
+
+
 
 
 
