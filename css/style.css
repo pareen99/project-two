@@ -83,6 +83,7 @@ h1 {
 
 .center {
     position: relative;
+    display: flex;
     text-align: center;
 }
 .centered-text {
