@@ -88,6 +88,9 @@ h1 {
     width: 50%;
     padding: 10px;
 }
+.graph {
+    z-index: -1;
+}
 /*article styles*/
 article {
     max-width: 900px;
