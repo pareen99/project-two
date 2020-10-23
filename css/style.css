@@ -125,7 +125,18 @@ h1 {
 
 /*article styles*/
 article {
+    margin-left: 20px;
+}
+.right-align {
+    text-align: right;
+}
+.left-align {
+    text-align: left;
     max-width: 900px;
+}
+article >img {
+    width: 300px;
+    height: auto;
 }
 /*image styles*/
 
