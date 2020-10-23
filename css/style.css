@@ -32,8 +32,7 @@ nav ul {
      z-index: 2;
 }
 #homepage {
-top: 250px;
-align-items: unset;
+top: 400px;
 }
 
 #hamburger {
@@ -137,6 +136,11 @@ article {
 article >img {
     width: 300px;
     height: auto;
+}
+
+.center-lines {
+    font-size: 20px;
+    text-align: center;
 }
 /*image styles*/
 
