@@ -151,12 +151,13 @@ article >img {
 /*video styles*/
 .video-bg {
  width: 100vw;
- height: 100vh;
+ height: 97vh;
  overflow: hidden;
  display: flex;
  justify-content: center;
  align-items: center;
 }
+
 
 /*faq styles*/
 .accordion {
