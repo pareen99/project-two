@@ -78,7 +78,7 @@ nav ul {
     z-index: 2;
 }
 
-nav ul.active {
+nav ul {
     display: block;
 }
 
@@ -101,7 +101,7 @@ nav ul.active {
     z-index: 1;
 
 }
-#overlay.active {
+#overlay {
     display: block;
 }
     nav ul li {
