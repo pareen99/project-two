@@ -10,8 +10,8 @@ var menu = document.getElementById("menu");
 var overlay = document.getElementById("overlay");
 // define toggle function 
 function toggleMenu() {
-    menu.classList.toggle("active");
-    overlay.classList.toggle("active");
+    menu.classList.toggle("show");
+    overlay.classList.toggle("show");
 }
 //execute toggle function from hambruger on click
 hamburger.addEventListener("click", toggleMenu);

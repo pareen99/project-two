@@ -34,10 +34,12 @@ nav ul {
 }
 #homepage {
 top: 400px;
+overflow: hidden;
 }
 
 #hamburger {
     display: none;
+    z-index: 1;
 }
 
 #overlay {
@@ -78,7 +80,7 @@ nav ul {
     z-index: 2;
 }
 
-nav ul {
+nav ul.show {
     display: block;
 }
 
@@ -86,6 +88,7 @@ nav ul {
     display: block;
     height: 30px;
     width: auto;
+    top: 25%;
 }
 #overlay {
     display: none;
@@ -101,7 +104,7 @@ nav ul {
     z-index: 1;
 
 }
-#overlay {
+#overlay.show {
     display: block;
 }
     nav ul li {
@@ -151,11 +154,12 @@ article >img {
 /*video styles*/
 .video-bg {
  width: 100vw;
- height: 97vh;
+ height: 100vh;
  overflow: hidden;
  display: flex;
  justify-content: center;
  align-items: center;
+ z-index: -1;
 }
 
 
