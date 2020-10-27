@@ -128,18 +128,26 @@ h1 {
 
 /*article styles*/
 article {
-    margin-left: 20px;
+    margin-left: 70px;
+    margin-right: 400px;
 }
-.right-align {
-    text-align: right;
+.left-in {
+    text-align: left;
+    margin-left: 900px;
+    margin-right: 20px;
+    padding: 20px;
 }
 .left-align {
     text-align: left;
     max-width: 900px;
+    margin-right: 20px;
+    padding: 20px;
 }
 article >img {
-    width: 300px;
-    height: auto;
+    width:30%;
+    float: right;
+    margin: 20px;
+    margin-top: 0;
 }
 
 .center-lines {
@@ -148,19 +156,21 @@ article >img {
 }
 .orange {
     color: #FD9D00;
+    font-size: 19px;
 }
 /*image styles*/
 
 /*video styles*/
 .video-bg {
  width: 100vw;
- height: 100vh;
+ height: 97vh;
  overflow: hidden;
  display: flex;
  justify-content: center;
  align-items: center;
  z-index: -1;
 }
+
 
 
 /*faq styles*/
