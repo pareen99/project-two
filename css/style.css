@@ -145,7 +145,7 @@ article {
 }
 
 article >img {
-    width:30%;
+    width:40%;
     float: right;
     margin: 20px;
     margin-top: 0;
@@ -168,6 +168,7 @@ h4 {
  @media (max-width:768px) {
      article {
          margin-left: 10px;
+         margin-right: 10px;
      }
      
      .humans {
@@ -244,4 +245,6 @@ iframe {
     padding:15px;
 }
 
-
+video {
+    width: 100%;
+}
